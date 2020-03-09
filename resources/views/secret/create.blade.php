@@ -7,7 +7,8 @@
     <form action="store" method="POST" role="form">
         <div class="form-group">
             <label for="secret">Secret</label>
-            <textarea name="secret" id="secret" class="form-control" rows="3" required="required"></textarea>
+            <textarea name="secret" id="secret" class="form-control" rows="1" required="required"></textarea>
+            <small id="passwordHelpBlock" class="form-text text-danger">Important: Include <strong>only</strong> the secret/password; Any other identifying information (username, server, etc.) must be communicated separately.</small>
         </div>
 
         <div class="form-group">
